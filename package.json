@@ -1,0 +1,22 @@
+{
+  "name": "js_katas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thea-J/js_katas.git"
+  },
+  "author": "Thea-J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thea-J/js_katas/issues"
+  },
+  "homepage": "https://github.com/Thea-J/js_katas#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
