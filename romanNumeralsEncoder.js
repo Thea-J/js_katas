@@ -1,1 +1,26 @@
+//Task: Given a positive integer, the encoder function should output the corresponding roman numeral in string format
+
+//Plan:
+// 1) Define a dictionary stating each Roman Numeral symbol and its corresponding value
+// 2) Define a recursive function, that makes reference to the above dictionary, that systematically subtracts the highest value from the given integer that has a symbol
+// 3) Push each value found into a solution string 
+// example: 2008 is passed. 2008-1000 >= 0, push "M" into solution string, 1008-1000>=0, push "M" into solution string, 8-5 >= 0, push "V" into solution string, 
+//          3-1>=0, push "I" into solution string, 2-1>=0, push "I" into solution string, 1-1=0, push "I" into solution string & end execution, Return "MMVIII"
+
+// Edge cases: 0 is passed, cases where more than 3 identical symbols in a row (One less than 5... 4 = IV, 40 & 400. One less than 10 ... 9 = IX, 90 & 900)
+
+function encoder(int) {
+    let solutionString = "";
+    let numeralDictionary = {
+        1000: "M", 
+        500: "D",
+        100: "C",
+        50: "L",
+        10: "x",
+        5: "V",
+        1: "I"
+    }
+
+}
+
 module.exports = encoder;
